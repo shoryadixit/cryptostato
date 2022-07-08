@@ -1,2 +1,0 @@
-# cryptoStato
-Created with CodeSandbox
