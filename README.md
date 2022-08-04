@@ -15,8 +15,6 @@ After some time all dependencies are installed run the application by :
 <!DOCTYPE html>
 <html>
     <head>
-        <title>
-        </title>
     </head>
     <body>
         <a href="/public/index.html">Visit to website</a>
