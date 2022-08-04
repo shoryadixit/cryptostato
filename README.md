@@ -17,6 +17,6 @@ After some time all dependencies are installed run the application by :
     <head>
     </head>
     <body>
-        <a href="/public/index.html">Visit to website</a>
+        <a href="/build/index.html">Visit to website</a>
     </body>
     </html>
