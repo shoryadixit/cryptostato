@@ -11,3 +11,12 @@ by git clone command.
     "npm i react-scripts --force"
 After some time all dependencies are installed run the application by :
     "npm start"
+
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <a href="/public/index.html">Visit to website</a>
+    </body>
+    </html>
