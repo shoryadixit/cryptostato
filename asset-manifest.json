@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/shoryadixit/static/css/main.3127a818.chunk.css",
+    "main.js": "/shoryadixit/static/js/main.4b2e1311.chunk.js",
+    "main.js.map": "/shoryadixit/static/js/main.4b2e1311.chunk.js.map",
+    "runtime-main.js": "/shoryadixit/static/js/runtime-main.493ecbd2.js",
+    "runtime-main.js.map": "/shoryadixit/static/js/runtime-main.493ecbd2.js.map",
+    "static/css/2.2ce6171d.chunk.css": "/shoryadixit/static/css/2.2ce6171d.chunk.css",
+    "static/js/2.5134d893.chunk.js": "/shoryadixit/static/js/2.5134d893.chunk.js",
+    "static/js/2.5134d893.chunk.js.map": "/shoryadixit/static/js/2.5134d893.chunk.js.map",
+    "index.html": "/shoryadixit/index.html",
+    "static/css/2.2ce6171d.chunk.css.map": "/shoryadixit/static/css/2.2ce6171d.chunk.css.map",
+    "static/css/main.3127a818.chunk.css.map": "/shoryadixit/static/css/main.3127a818.chunk.css.map",
+    "static/js/2.5134d893.chunk.js.LICENSE.txt": "/shoryadixit/static/js/2.5134d893.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.493ecbd2.js",
+    "static/css/2.2ce6171d.chunk.css",
+    "static/js/2.5134d893.chunk.js",
+    "static/css/main.3127a818.chunk.css",
+    "static/js/main.4b2e1311.chunk.js"
+  ]
+}
