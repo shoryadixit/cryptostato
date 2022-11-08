@@ -40,7 +40,7 @@ const Banner = () => {
             variant="h2"
             className={style.title}
           >
-            Crypto's Stato
+            Crypto Stato
           </Typography>
           <Typography
             variant="subtitle2"

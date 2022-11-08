@@ -55,8 +55,6 @@ function Header() {
             >
               Crypto's Stato
             </Typography>
-
-            {/* <Button color="inherit">Login</Button> */}
             <Select
               variant="outlined"
               labelId="demo-simple-select-label"

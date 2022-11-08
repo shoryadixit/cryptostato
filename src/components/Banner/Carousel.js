@@ -30,20 +30,20 @@ const Carousel = () => {
       justifyItems: "",
     },
     carouselItem: {
-      margin: "15px",
-      padding: "10px",
+      marginTop: "35px",
+      padding: "5px",
       display: "flex",
       flexWrap: "wrap",
       cursor: "pointer",
       justifyContent: "space-evenly",
-      width: "220px",
+      width: "210px",
       height: "220px",
       textTransform: "uppercase",
       color: "white",
       backdropFilter: "blur(35px)",
-      boxShadow: "10px 10px 10px rgba(255, 255, 255, 0.2)",
-      background: "rgba(255, 255, 255, 0.7)",
-      border: "1px solid rgba(255, 255, 255, 0.4)",
+      // boxShadow: "10px 10px 10px rgba(255, 255, 255, 0.2)",
+      background: "rgba(200, 200, 200, 0.7)",
+      // border: "1px solid rgba(255, 255, 255, 0.4)",
       borderRadius: "20px"
     }
   }));
@@ -80,7 +80,7 @@ const Carousel = () => {
             {coin?.price_change_percentage_24h?.toFixed(2)}%
           </span>
         </span>
-        <span style={{ fontSize: 25, fontWeight: 500, color: "black" }}>
+        <span style={{ fontSize: 25, fontWeight: 500, color: "#fff" }}>
           {symbol} {numberWithCommas(coin?.current_price.toFixed(2))}
         </span>
       </Link>
@@ -89,10 +89,12 @@ const Carousel = () => {
 
   const responsive = {
     0: {
-      items: 2
+      items: 1,
+      marginTop: "55px",
+      background: "rgba(200, 200, 200, 0.7)",
     },
     512: {
-      items: 4
+      items: 5
     }
   };
 
