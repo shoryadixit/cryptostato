@@ -11,3 +11,12 @@ by git clone command.
     "npm i react-scripts --force"
 After some time all dependencies are installed run the application by :
     "npm start"
+If it any problem project not run run this command then
+    "set NODE_OPTIONS=--openssl-legacy-provider"
+then now run "npm start"
+
+
+Project ScreenShots.:
+![Screenshot (28)](https://user-images.githubusercontent.com/61449438/216808410-422f5b39-2dce-4af0-804c-763f58775043.png)
+![Screenshot (29)](https://user-images.githubusercontent.com/61449438/216808422-af722ff7-1ec5-44ab-8963-667c30b45231.png)
+![Screenshot (30)](https://user-images.githubusercontent.com/61449438/216808423-5c6a5575-a788-4960-aa66-75698b5059f7.png)
