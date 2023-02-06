@@ -24,26 +24,26 @@ const Carousel = () => {
 
   const useStyles = makeStyles((_theme) => ({
     carousel: {
-      height: "50%",
+      height: "85%",
       display: "flex",
       alignItems: "center",
-      justifyItems: "",
+      justifyItems: "space-evenly",
     },
     carouselItem: {
-      marginTop: "35px",
-      padding: "5px",
+      margin: "35px",
+      padding: "15px",
       display: "flex",
       flexWrap: "wrap",
-      cursor: "pointer",
+      cursor: "pointe",
       justifyContent: "space-evenly",
       width: "210px",
       height: "220px",
       textTransform: "uppercase",
       color: "white",
       backdropFilter: "blur(35px)",
-      // boxShadow: "10px 10px 10px rgba(255, 255, 255, 0.2)",
-      background: "rgba(200, 200, 200, 0.7)",
-      // border: "1px solid rgba(255, 255, 255, 0.4)",
+      boxShadow: "15px 15px 15px rgba(255, 255, 255, 0.2)",
+      background: "rgba(200, 200, 200, 0.5)",
+      border: "1px solid rgba(255, 255, 255, 0.4)",
       borderRadius: "20px"
     }
   }));
@@ -88,12 +88,21 @@ const Carousel = () => {
   });
 
   const responsive = {
-    0: {
+    300: {
       items: 1,
-      marginTop: "55px",
       background: "rgba(200, 200, 200, 0.7)",
     },
-    512: {
+    500: {
+      items: 2
+    },
+    800: {
+      items: 3
+    },
+    1000: {
+      margin: "10px",
+      items: 4
+    },
+    1100: {
       items: 5
     }
   };
