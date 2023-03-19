@@ -18,7 +18,7 @@ const useStyles = makeStyles(() => ({
 function App() {
   const classes = useStyles();
   return (
-    <div className="App">
+    <div className={classes.App}>
       <BrowserRouter>
           <Header />
           <Route path="/" component={Homepage} exact />
