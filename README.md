@@ -1,6 +1,7 @@
 # cryptoStato
-This is a website where show all the cryptoCurrency status how there price going on and they have to track all the price status at previous one day before, two day before
-one month before, and one year.
+This is a website where show all the cryptoCurrency status how there price going on and they have to track all the price status at previous one day before, two day before one month before, and one year.
+
+There is live project link: https://6422ca7fcb6cbf0c88129349--relaxed-narwhal-a6de8e.netlify.app/
 
 To run this project on your machine clone the repository by this command paste in your command prompt to the designed folder.
     "git clone "https://github.com/shoryadixit/cryptoStato""
